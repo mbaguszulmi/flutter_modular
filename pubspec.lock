@@ -53,9 +53,11 @@ packages:
   commons:
     dependency: "direct main"
     description:
-      path: "packages/commons"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "479897f7e96a6f6200de5886c1033f0776e8983e"
+      url: "git@github.com:mbaguszulmi/flutter_modular_commons.git"
+    source: git
     version: "1.0.0+1"
   cupertino_icons:
     dependency: "direct main"
@@ -152,9 +154,11 @@ packages:
   module_a:
     dependency: "direct main"
     description:
-      path: "packages/module_a"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "089aed093e97ed389280321623423659d39e1369"
+      url: "git@github.com:mbaguszulmi/flutter_modular_module_a.git"
+    source: git
     version: "1.0.0+1"
   nested:
     dependency: transitive

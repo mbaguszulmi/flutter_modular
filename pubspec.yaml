@@ -30,9 +30,13 @@ dependencies:
   flutter:
     sdk: flutter
   module_a:
-    path: ./packages/module_a
+    git:
+      url: git@github.com:mbaguszulmi/flutter_modular_module_a.git
+      ref: master
   commons:
-    path: ./packages/commons
+    git:
+      url: git@github.com:mbaguszulmi/flutter_modular_commons.git
+      ref: master
 
 
   # The following adds the Cupertino Icons font to your application.
